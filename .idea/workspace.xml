@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f90a87c8-6c27-4314-a859-0570543b870f" name="Changes" comment="HW_1_удалил пустые строки" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HW_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="34POk8rVVrs6OZ7fW9xIgnWwHnO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_add_product.test_add_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_administration_login.test_administration_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catalog.test_catalog_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_change_curency.test_add_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_change_currency.test_add_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_change_currency_catalog.test_change_currency_catalog.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_check_elelement_2.test_general_check_Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_implicit_wait.test_check_header.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_implicit_wait.test_general_check_Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login.test_catalog_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_main_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product_cart.test_catalog_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_main_page.test_general_check_Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_add_product.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_administration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_administration_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_change_curency.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_find_elements.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Pasha/code/Code/otus_2025_10/tests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pasha\code\Code\otus_2025_10\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pasha\code\Code\otus_2025_10" />
+      <recent name="D:\Pasha\code\Code\otus_2025_10\tests" />
+      <recent name="D:\Pasha\code\Code\otus_2025_10\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_change_currency_general">
+    <configuration name="Python tests for tests.test_change_currency_general" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="otus_2025_10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_change_currency_general&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_change_currency_general" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="otus_2025_10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_change_currency_general&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_add_product.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="otus_2025_10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_add_product.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_change_currency_general.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="otus_2025_10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_change_currency_general.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_change_currency_general.py" />
+        <item itemvalue="Python tests.Python tests in test_add_product.py" />
+        <item itemvalue="Python tests.Python tests for tests.test_change_currency_general" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f90a87c8-6c27-4314-a859-0570543b870f" name="Changes" comment="" />
+      <created>1761111880854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761111880854</updated>
+    </task>
+    <task id="LOCAL-00001" summary="HW_1">
+      <option name="closed" value="true" />
+      <created>1764535740806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764535740806</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW_1">
+      <option name="closed" value="true" />
+      <created>1764535767633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764535767633</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW_1_удалил пустые строки">
+      <option name="closed" value="true" />
+      <created>1764738708253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764738708253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW_1" />
+    <MESSAGE value="HW_1_удалил пустые строки" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_1_удалил пустые строки" />
+  </component>
+</project>
