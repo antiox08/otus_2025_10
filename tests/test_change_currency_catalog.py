@@ -21,4 +21,3 @@ def test_change_currency_catalog(browser):
     assert active_currency_new != active_currency, "Currency did not change"
 
     new_price_element = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".price"))).text
-

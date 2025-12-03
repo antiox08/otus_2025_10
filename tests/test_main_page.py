@@ -13,5 +13,3 @@ def test_main_page(browser):
     currency = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#currency-selector-label")))
     contact_us = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#contact-link")))
     search = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#search_widget")))
-
-

@@ -12,4 +12,3 @@ def test_administration_login_page(browser):
     submit_login = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#submit_login")))
     chk_box_btn = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".md-checkbox")))
     forgot_password_link = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#forgot-password-link")))
-

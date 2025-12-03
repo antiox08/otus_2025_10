@@ -23,7 +23,3 @@ def test_administration_login(browser):
 
     submit_login = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#submit_login")))
     assert submit_login.is_displayed(), 'Logout failed'
-
-
-
-

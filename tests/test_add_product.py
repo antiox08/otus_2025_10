@@ -14,9 +14,3 @@ def test_add_product(browser):
 
     product_in_cart = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".product-image")))
     assert product_in_cart.is_displayed(), 'product was not added'
-
-
-
-
-
-
