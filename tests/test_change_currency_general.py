@@ -22,4 +22,3 @@ def test_change_currency_general(browser):
 
     new_price_element = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".price"))).text
 
-

@@ -6,14 +6,11 @@ from page_objects.admin.admin_alert import AlertSuccessElement
 from page_objects.admin.admin_customer_page import AdminCustomerPage
 from page_objects.admin.admin_add_customer_page import AdminAddCustomerPage
 from test_data import ADMIN_USER
-import allure
 
-@allure.title("Добавление и удаление товара в админке")
-@allure.severity(allure.severity_level.CRITICAL)
-@allure.tag("admin", "product")
+
 def test_add_and_del_product(browser):
     # Открываем страницу админки
-    browser.get(f"{browser.base_url}/administration/index.php?route=common/login")
+    browser.get(f"{browser.base_url}/administration/")
 
     # Логинимся
     login_page = AdminLoginPage(browser)
@@ -47,11 +44,8 @@ def test_add_and_del_product(browser):
     alert.confirm_alert()
     alert._wait()
 
-@allure.title("Добавление нового клиента в админке")
-@allure.severity(allure.severity_level.NORMAL)
-@allure.tag("admin", "customer")
 def test_add_customer(browser):
-    browser.get(f"{browser.base_url}/administration/index.php?route=common/login")
+    browser.get(f"{browser.base_url}/administration")
 
     login_page = AdminLoginPage(browser)
     login_page.login(ADMIN_USER["username"], ADMIN_USER["password"])
