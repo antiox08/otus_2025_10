@@ -16,6 +16,7 @@ class AdminCustomerPage(BasePage):
         WebDriverWait(self.browser, 5).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, ".btn-danger"))
         ).click()
+
     def page_add_customers(self) -> None:
         WebDriverWait(self.browser, 5).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='customer.form']"))

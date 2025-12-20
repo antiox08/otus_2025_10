@@ -15,4 +15,3 @@ class ProductPage(BasePage):
     def add_to_wish_list(self) -> None:
         """Добавление в избранное"""
         self.browser.find_element(By.CSS_SELECTOR, "[title='Add to Wish List']").click()
-

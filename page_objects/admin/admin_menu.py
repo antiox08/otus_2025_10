@@ -3,12 +3,18 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from page_objects.base_page import BasePage
 import time
+from log.logger import get_logger
+import allure
 
+
+logger = get_logger()
 
 class AdminMenuPage(BasePage):
 
     def click_to_catalog_product(self) -> None:
         """Переход на страницу редактирования каталога товаров"""
+        with allure.step("Переход в раздел Catalog"):
+            logger.info("Переход в раздел Catalog")
 
         WebDriverWait(self.browser, 1).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "#menu-catalog a[href='#collapse-1']"))
@@ -21,6 +27,8 @@ class AdminMenuPage(BasePage):
 
     def click_to_customers(self) -> None:
         """Переход на страницу редактирования клиентов"""
+        with allure.step("Переход в раздел Customers"):
+            logger.info("Переход в раздел Customers")
 
         WebDriverWait(self.browser, 1).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "#menu-customer a[href='#collapse-5']"))

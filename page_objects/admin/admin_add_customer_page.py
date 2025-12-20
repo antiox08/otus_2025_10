@@ -3,11 +3,17 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from page_objects.base_page import BasePage
 import time
+from log.logger import get_logger
+import allure
 
+
+logger = get_logger()
 class AdminAddCustomerPage(BasePage):
 
     def add_customer(self) -> None:
         """Создание пользователя"""
+        with allure.step("Создание нового пользователя"):
+            logger.info("Создание нового пользователя")
 
         first_name = WebDriverWait(self.browser, 5).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "#input-firstname")))
@@ -37,6 +43,8 @@ class AdminAddCustomerPage(BasePage):
 
     def save_customer(self) -> None:
         """Сохранение пользователя"""
+        with allure.step("Сохранение пользователя"):
+            logger.info("Сохранение пользователя")
 
         WebDriverWait(self.browser, 5).until(
              EC.presence_of_element_located((By.CSS_SELECTOR, ".btn-primary"))).click()
