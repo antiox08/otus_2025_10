@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+
 from page_objects.base_page import BasePage
 
 
@@ -10,9 +11,12 @@ class ProductPage(BasePage):
 
     def add_to_comparison(self) -> None:
         """Добавление в сравнение"""
-        self.browser.find_element(By.CSS_SELECTOR, "[title='Compare this Product']").click()
+        self.browser.find_element(
+            By.CSS_SELECTOR, "[title='Compare this Product']"
+        ).click()
 
     def add_to_wish_list(self) -> None:
         """Добавление в избранное"""
-        self.browser.find_element(By.CSS_SELECTOR, "[title='Add to Wish List']").click()
-
+        self.browser.find_element(
+            By.CSS_SELECTOR, "[title='Add to Wish List']"
+        ).click()

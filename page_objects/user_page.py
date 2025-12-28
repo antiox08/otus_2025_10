@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
+
 from page_objects.base_page import BasePage
 
 
@@ -8,9 +9,15 @@ class UserPage(BasePage):
 
     def login(self, username: str, password: str) -> None:
         """Логин пользователя"""
-        self.browser.find_element(By.CSS_SELECTOR, "#input-email").send_keys(username)
-        self.browser.find_element(By.CSS_SELECTOR, "#input-password").send_keys(password)
-        self.browser.find_element(By.CSS_SELECTOR, "#form-login button").click()
+        self.browser.find_element(By.CSS_SELECTOR, "#input-email").send_keys(
+            username
+        )
+        self.browser.find_element(
+            By.CSS_SELECTOR, "#input-password"
+        ).send_keys(password)
+        self.browser.find_element(
+            By.CSS_SELECTOR, "#form-login button"
+        ).click()
 
     def wait_logged_in(self):
         """Ожидание, что пользователь залогинен"""
