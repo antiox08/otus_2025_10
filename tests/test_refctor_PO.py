@@ -1,11 +1,11 @@
-from page_objects.main_page import MainPage
-from page_objects.user_page import UserPage
-from page_objects.product_page import ProductPage
+from page_objects.alert_element import AlertSuccessElement
 from page_objects.cart_page import CartPage
 from page_objects.checkout_page import CheckoutPage
 from page_objects.comparison_page import ComparisonPage
+from page_objects.main_page import MainPage
+from page_objects.product_page import ProductPage
+from page_objects.user_page import UserPage
 from page_objects.wishlist_page import WishlistPage
-from page_objects.alert_element import AlertSuccessElement
 from test_data import TEST_USER
 
 

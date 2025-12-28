@@ -17,7 +17,9 @@ class MainPage:
 
         products = self.browser.find_elements(By.CSS_SELECTOR, ".description")
 
-        product_name = products[index].find_element(By.CSS_SELECTOR, "h4 a").text
+        product_name = (
+            products[index].find_element(By.CSS_SELECTOR, "h4 a").text
+        )
 
         # Скролл с помощью JavaScript
         link = products[index].find_element(By.CSS_SELECTOR, "h4 a")
