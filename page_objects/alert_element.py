@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class AlertSuccessElement:
@@ -10,7 +10,9 @@ class AlertSuccessElement:
 
     def _wait(self):
         WebDriverWait(self.browser, 5).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, ".alert-success"))
+            EC.visibility_of_element_located(
+                (By.CSS_SELECTOR, ".alert-success")
+            )
         )
 
     @property
